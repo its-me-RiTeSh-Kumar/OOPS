@@ -18,8 +18,8 @@ class cow implements living_beings {
 
 public class Interface_1 {
     public static void main(String args[]) {
-        human obj1 = new human();
-        cow obj2 = new cow();
+        living_beings obj1 = new human();
+        living_beings obj2 = new cow();
         obj1.movement();
         obj2.movement();
     }
